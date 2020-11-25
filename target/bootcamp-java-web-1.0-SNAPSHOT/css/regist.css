@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 21, 2020, 10:09:06 AM
+    Author     : cimiko
+*/
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+.update a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    background: blue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.registText{
+    padding: 100px 0px;
+}
+            
+.button{
+    margin: 50px 0px;
+}
+
+.button a{
+    text-decoration: none;
+    padding: 10px 50px;
+    color: white;
+    background: blue;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+            
+.button,.update a:hover{
+    box-shadow: 0px 4px black;
+}
+            
+.button,.update a:active{
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.registPage{
+    text-align: center;
+}
+
+form{
+    padding-top: 25px;
+}
+
+.form-control{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.regist{
+    margin: auto;
+    padding: auto;
+    margin-top: 15%;
+    background-color: lightgrey;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+}
+
+
+
+.btn:hover{
+    box-shadow: 0px 3px black;
+}
+
+.btn:active{
+    transform: translateY(3px);
+
+}
